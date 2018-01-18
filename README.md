@@ -24,3 +24,6 @@ Additionally, I chose two background images for the home page and instruction pa
 * Get exact stats from the Plex API
 * Make into a Docker container
 * Add Now Playing on Plex Section
+
+#### Note
+This repo is forked from my personal implementation so there is minimal commit history
