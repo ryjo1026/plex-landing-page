@@ -18,12 +18,5 @@ Clone the repository and replace text in index.html and access.html with your de
 
 Additionally, I chose two background images for the home page and instruction page from one of my favorite movies and shows. I recommend browsing [/r/CineShots](https://www.reddit.com/r/CineShots/) for background images if you like that idea. You can change them in the respective .css files under the ```.jumbotron``` class.
 
-
-## TODO
-* Move customization out to JSON files
-* Get exact stats from the Plex API
-* Make into a Docker container
-* Add Now Playing on Plex Section
-
 #### Note
 This repo is forked from my personal implementation so there is minimal commit history
