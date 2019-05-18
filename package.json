@@ -9,11 +9,20 @@
     "bulma": "^0.7.4"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "mustache": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "watch": "^1.0.2"
   },
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url assets/sass --output assets/css",
-    "css-watch": "yarn run css-build --watch",
-    "start": "yarn run css-watch"
+    "build": "run-s build:*",
+    "build:css": "node-sass --omit-source-map-url assets/sass --output assets/css",
+    "build:html": "run-s build:html:*",
+    "build:html:html": "mustache templates/index.json templates/index.mustache > index.html",
+    "build:html:access": "mustache templates/access.json templates/access.mustache > access.html",
+    "watch": "run-p watch:*",
+    "watch:css": "yarn run build:css --watch",
+    "watch:html": "watch 'yarn run build:html' ./templates",
+    "start": "yarn run watch"
   }
 }
