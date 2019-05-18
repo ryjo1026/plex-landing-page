@@ -1,3 +1,6 @@
+# Handled by node-sass
+assets/css
+
 ### macOS ###
 # General
 .DS_Store
