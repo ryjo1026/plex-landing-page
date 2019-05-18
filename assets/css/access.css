@@ -1,21 +1,6 @@
-.jumbotron{
-  top: 0px;
-  background: url('../img/backgrounds/b02.jpg');
-}
-
-body{
-  font-family: 'PT Sans', serif;
-}
-
-h4{
-  font-family: 'Roboto Slab'
-}
-
-a{
-  color: inherit;
-  text-decoration: underline;
-}
-
-p{
-  font-size: 18px;
-}
+.hero {
+  background: url(../img/backgrounds/b04.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: #999; }

@@ -12,7 +12,7 @@
     "node-sass": "^4.11.0"
   },
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url assets/sass/main.scss assets/css/main.css",
+    "css-build": "node-sass --omit-source-map-url assets/sass --output assets/css",
     "css-watch": "yarn run css-build --watch",
     "start": "yarn run css-watch"
   }
