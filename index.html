@@ -3,6 +3,7 @@
 <head>
   <title>[INSERT MEDIA SERVER NAME HERE]</title>
 
+  <!-- Generate Favicons using https://realfavicongenerator.net/ -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
@@ -10,83 +11,62 @@
   <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-  <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
-
-  <script type="text/javascript" src="assets/js/jquery-3.2.1.js"></script>
-  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-  <script type="text/javascript" src="assets/js/script.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-  <div class="section no-pad-bot jumbotron">
-    <div class="container">
-      <br><br>
-      <h1 class="header center yellow-text text-darken-3" style="font-family: 'Roboto Slab', serif">[INSERT MEDIA SERVER NAME HERE]</h1>
-      <div class="row center">
-        <h5 class="header col s12 light white-text subtitle">The complete library of over [# OF MOVIES] Movies & [# OF SHOWS] Shows available instantly.</h5>
+  <section class="hero is-large">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-white has-text-right">
+          [INSERT MEDIA SERVER NAME HERE]
+        </h1>
+        <h2 class="subtitle has-text-white has-text-right">
+          The complete library of over [# OF MOVIES] Movies & [# OF SHOWS] Shows available instantly.
+        </h2>
+        <a href="[INSERT MEDIA SERVER LINK HERE]" class="button is-primary is-pulled-right">Access the Server</a>
       </div>
-      <div class="row center">
-        <a href="#" id="access-link" class="btn-large waves-effect waves-light yellow darken-3">Access the Server</a>
-      </div>
-      <br><br>
     </div>
-  </div>
-  <div class="container">
-    <div class="section">
+  </section>
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center grey-text text-darken-2"><i class="material-icons">account_circle</i></h2>
-            <h5 class="center">Get Access</h5>
-            <p class="light">Read instructions on how to gain access to the server to start watching content.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center grey-text text-darken-2"><i class="material-icons">library_add</i></h2>
-            <h5 class="center">Request New Content</h5>
-            <p class="light">
-              Use Ombi to request new content for the server.
-            </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center grey-text text-darken-2"><i class="material-icons">group</i></h2>
-            <h5 class="center">PlexTogether</h5>
-            <p class="light">
-              Want to watch a movie with other members of the server? Create a PlexTogether Room and you'll be able to watch media off the server while synced up to each other.
-              The PlexTogether player provides a chat window for discussing the movie or you can use any of your plex devices (XBox, Roku, etc.).
-            </p>
-          </div>
-        </div>
+  <section class="section">
+    <div class="columns">
+      <div class="column has-text-centered">
+        <h2 class="title">Get Access</h2>
+        <h2 class="title"></h2>
+        <p class="has-text-left">Read the instructions on how to get access to the server. You'll be watching movies and television in no time.</p>
       </div>
-
-      <div class = "row button-row">
-        <div class="col s12 m4">
-          <a href="/access.html" class="btn-large waves-effect waves-light yellow darken-3 center">Instructions</a>
-        </div>
-
-        <div class="col s12 m4">
-          <a href="#" id="requests-link" class="btn-large waves-effect waves-light yellow darken-3 center">Ombi</a>
-        </div>
-
-        <div class="col s12 m4">
-          <a href="#" id="plextogether-link" class="btn-large waves-effect waves-light yellow darken-3 center">PlexTogether</a>
-        </div>
+      <div class="column has-text-centered">
+        <h2 class="title">Request Media</h2>
+        <h2 class="title"></h2>
+        <p class="has-text-left">Use Ombi to request new content for the server. Just sign in with the same Plex account you use for the server.
+          Your request will be reviewed by the administrator and you'll be able to get watching in no time.
+        </p>
       </div>
-
+      <div class="column has-text-centered">
+        <h2 class="title">SyncLounge</h2>
+        <p class="has-text-left">Want to watch a movie with other members of the server? Create a SyncLounge Room and you'll be able to watch
+        media off the server while synced up to each other. The SyncLounge player provides a chat window for
+        discussing the movie or you can use any of your plex devices (XBox, Roku, etc.).</p>
+      </div>
     </div>
-  </div>
-  <div class="container">
-  </div>
-  </body>
-</html>
 
+    <div class="columns">
+      <div class="column has-text-centered">
+        <a href="access.html" class="button is-primary is-pulled-left">Instructions&nbsp;&nbsp;<i
+            class="fas fa-list"></i></a>
+      </div>
+      <div class="column has-text-centered">
+        <a href="[INSERT REQUESTS LINK HERE]" class="button is-primary is-pulled-left">Request&nbsp;&nbsp;<i
+            class="fas fa-plus-square"></i></a>
+      </div>
+      <div class="column has-text-centered">
+        <a href="https://synclounge.tv/" class="button is-primary is-pulled-left">SyncLounge&nbsp;&nbsp;<i
+            class="fas fa-users"></i></a>
+      </div>
+    </div>
+  </section>
+</body>
 </html>

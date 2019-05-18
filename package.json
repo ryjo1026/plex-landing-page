@@ -1,0 +1,19 @@
+{
+  "name": "plex-landing-page",
+  "version": "0.2.0",
+  "description": "A landing page for your Plex media server",
+  "repository": "git@github.com:ryjo1026/plex-landing-page.git",
+  "author": "Ryan Johnston <ryjo1026@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url assets/sass --output assets/css",
+    "css-watch": "yarn run css-build --watch",
+    "start": "yarn run css-watch"
+  }
+}
