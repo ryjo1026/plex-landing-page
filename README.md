@@ -1,11 +1,11 @@
 # PlexLandingPage
 
-A Landing Page for a Plex Media Server. I made this with [materialize.css](http://materializecss.com/).
+A simple landing page for your Plex Media Server. I made this with [bulma](https://bulma.io/) for CSS styling.
 
-![Landing Page Screenshot](https://i.imgur.com/b4VsdO4.jpg)
+![Landing Page Screenshot](https://i.imgur.com/RadvB9M.jpg)
 
 ## Instructions & Suggestions
-Clone the repository and replace text in index.html and access.html with your desired text. In ```assets/js/script.js``` modify the file to have correct links to the services that you use like PlexPy, Ombi, etc. (I did this because I change links somewhat often). Here's some specific customizations you can make:
+Clone the repository and replace text in index.html and access.html with your desired text. The Bulma install and Sass compilation is handled by yarn/npm. Install required packages with ```yarn install ``` then start automatic sass file compilation with ```yarn start```. Here's some specific customizations you can make:
 
 ### Home Page
 * The title of the page
@@ -16,7 +16,7 @@ Clone the repository and replace text in index.html and access.html with your de
 * The instructions are pretty generic so you can change them to include where people should contact you etc.
 
 
-Additionally, I chose two background images for the home page and instruction page from one of my favorite movies and shows. I recommend browsing [/r/CineShots](https://www.reddit.com/r/CineShots/) for background images if you like that idea. You can change them in the respective .css files under the ```.jumbotron``` class.
+Additionally, I chose two background images for the home page and instruction page from one of my favorite movies and shows. I recommend browsing [/r/CineShots](https://www.reddit.com/r/CineShots/) for background images if you like that idea. You can change them in the respective .scss files under the ```.hero``` class.
 
-#### Note
-This repo is forked from my personal implementation so there is minimal commit history
+## Contribution
+This project is open-sourced under the MIT license. Feel free to make issues and pull requests for any improvements you want to see.
