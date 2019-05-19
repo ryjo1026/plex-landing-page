@@ -1,1 +1,21 @@
-{}
+{
+    "server-name": "Server Name",
+    "instructions": [
+        {
+            "step-title": "Step One",
+            "step-body": "Create a plex account through <a href='https://www.plex.tv/sign-up/'>plex.tv</a>. There are also options sign up using your Google or Facebook account. You don't need to buy a Plex Pass or pay for anything."
+        },
+        {
+            "step-title": "Step Two",
+            "step-body": "Go to <a href='https://app.plex.tv/desktop#!/account'>your profile</a> and send either your username or email to me."
+        },
+        {
+            "step-title": "Step Three",
+            "step-body": "Wait for me to add you as a friend. You should receive an email, follow the directions in the email and accept the invitation."
+        },
+        {
+            "step-title": "Step Four",
+            "step-body": "You're all set you can watch movies through the web player at <a href='https://www.plex.tv/'>plex.tv</a> or use your Xbox, Smart TV, etc. (iOS requires a one time $5 payment). Feel free to make requests for new content through <a href='https://ombi.exmaple.com'>Ombi</a>, you can sign in using your plex username."
+        }
+    ]
+}
