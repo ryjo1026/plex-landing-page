@@ -1,0 +1,28 @@
+{
+    "server-name": "Server Name",
+    "num-movies": 1000,
+    "num-shows": 100,
+    "info": [
+        {
+            "title": "Get Access",
+            "body": "Read the instructions on how to get access to the server. You'll be watching movies and television in no time.",
+            "button-text": "Instructions",
+            "button-icon": "fas fa-list",
+            "button-link": "/access"
+        },
+        {
+            "title": "Request Media",
+            "body": "Use Ombi to request new content for the server. Just sign in with the same Plex account you use for the server. Your request will be reviewed by the administrator and your content will get added as soon as possible.",
+            "button-text": "Request",
+            "button-icon": "fas fa-plus-square",
+            "button-link": "https://ombi.example.com"
+        },
+        {
+            "title": "SyncLounge",
+            "body": "Want to watch a movie with other members of the server? Create a SyncLounge Room and you'll be able to watch media off the server while synced up to each other.The SyncLounge player provides a chat window for discussing the movie or you can use any of your plex devices(XBox, Roku, etc.).",
+            "button-text": "SyncLounge",
+            "button-icon": "fas fa-users",
+            "button-link": "https://synclounge.tv/"
+        }
+    ]
+}

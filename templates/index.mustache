@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{server-name}}</title>
+
+  <!-- Generate Favicons using https://realfavicongenerator.net/ -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+  <section class="hero is-large">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-white has-text-right">{{server-name}}</h1>
+        <h2 class="subtitle has-text-white has-text-right">
+          The complete library of over {{num-movies}} Movies & {{num-shows}} Shows available instantly.
+        </h2>
+        <a href="[INSERT MEDIA SERVER LINK HERE]" class="button is-primary is-pulled-right">Access the Server</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="columns">
+        {{#info}}
+        <div class="column has-text-centered">
+            <h2 class="title">{{title}}</h2>
+            <p class="has-text-left">{{body}}</p>
+        </div>
+        {{/info}}
+    </div>
+
+    <div class="columns">
+        {{#info}}
+        <div class="column has-text-centered">
+            <a href="{{button-link}}" class="button is-primary is-pulled-left">{{button-text}}&nbsp;&nbsp;<i class="{{button-icon}}"></i></a>
+        </div>
+        {{/info}}
+    </div>
+  </section>
+</body>
+</html>
