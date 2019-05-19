@@ -1,5 +1,6 @@
 {
     "server-name": "Server Name",
+    "server-link": "https://app.plex.tv/web/app",
     "num-movies": 1000,
     "num-shows": 100,
     "info": [
