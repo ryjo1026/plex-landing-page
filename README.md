@@ -1,4 +1,4 @@
-# PlexLandingPage
+# plex-landing-page
 
 A simple landing page for your Plex Media Server. I made this with [bulma](https://bulma.io/) for CSS styling.
 
