@@ -21,8 +21,8 @@
     "build:html:html": "mustache templates/index.json templates/index.mustache > index.html",
     "build:html:access": "mustache templates/access.json templates/access.mustache > access.html",
     "watch": "run-p watch:*",
-    "watch:css": "yarn run build:css --watch",
-    "watch:html": "watch 'yarn run build:html' ./templates",
-    "start": "yarn run watch"
+    "watch:css": "$npm_execpath run build:css --watch",
+    "watch:html": "watch 'run-s build:html' ./templates",
+    "start": "run-s watch"
   }
 }
