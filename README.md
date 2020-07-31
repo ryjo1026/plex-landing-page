@@ -17,3 +17,6 @@ Additionally, I chose two background images for the home page and instruction pa
 
 ## Contribution
 This project is open-sourced under the MIT license. Feel free to make issues and pull requests for any improvements you want to see.
+
+## Help
+Please feel free to open an issue even if you just need help getting it set up! I'm very responsive to new issues and actively looking to remove friction from the setup process.
