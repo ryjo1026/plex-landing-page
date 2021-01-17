@@ -1,10 +1,3 @@
-# Handled by Mustache
-index.html
-access.html
-
-# Handled by node-sass
-assets/css
-
 ### macOS ###
 # General
 .DS_Store

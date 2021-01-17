@@ -15,6 +15,8 @@ The page is fully templated to make customization as easy as editing a JSON file
 
 Additionally, I chose two background images for the home page and instruction page from one of my favorite movies and shows. I recommend browsing [/r/CineShots](https://www.reddit.com/r/CineShots/) for background images if you like that idea. You can change them in the respective .scss files under the ```.hero``` class.
 
+Editing the JSON and rendering the templates is very easy but if you'd rather just edit the raw HTML it's located  in `index.html` and `access.html`.
+
 ## Contribution
 This project is open-sourced under the MIT license. Feel free to make issues and pull requests for any improvements you want to see.
 

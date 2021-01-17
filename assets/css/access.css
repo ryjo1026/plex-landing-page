@@ -1,0 +1,9 @@
+.hero {
+  background: url(../img/backgrounds/b04.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: #999; }
+
+.hero-head .button {
+  margin: 10px; }
